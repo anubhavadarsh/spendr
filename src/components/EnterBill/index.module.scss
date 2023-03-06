@@ -1,0 +1,31 @@
+.header {
+  margin-bottom: 40px;
+  & > h2 {
+    font-family: var(--font-family-inter-regular);
+    font-size: 18px;
+  }
+}
+
+.form {
+  & .btn-cont {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      padding: 10px 30px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      text-transform: capitalize;
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 990px) {
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

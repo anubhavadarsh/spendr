@@ -1,0 +1,23 @@
+.tag {
+  color: black;
+  font-family: var(--font-family-inter-regular);
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.form {
+  & input {
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: var(--font-family-inter-regular);
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 12px;
+    min-width: 150px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    margin-left: 5px;
+  }
+}

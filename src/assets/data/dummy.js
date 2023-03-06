@@ -1,0 +1,51 @@
+export const data = [
+  {
+    id: 1,
+    desc: "Dominoes",
+    cat: "FoodNDining",
+    amt: 430,
+    date: "2020-01-02",
+  },
+  {
+    id: 2,
+    desc: "Car wash",
+    cat: "utility",
+    amt: 500,
+    date: "2020-01-06",
+  },
+  {
+    id: 3,
+    desc: "Amazon",
+    cat: "shopping",
+    amt: 2030,
+    date: "2020-01-07",
+  },
+  {
+    id: 4,
+    desc: "House rent",
+    cat: "Food & Dining",
+    amt: 35900,
+    date: "2020-01-03",
+  },
+  {
+    id: 5,
+    desc: "Tuition",
+    cat: "education",
+    amt: 2200,
+    date: "2020-01-12",
+  },
+  {
+    id: 6,
+    desc: "Laundry",
+    cat: "Personal Care",
+    amt: 320,
+    date: "2020-01-14",
+  },
+  {
+    id: 7,
+    desc: "Vacation",
+    cat: "Travel",
+    amt: 3430,
+    date: "2020-01-18",
+  },
+];

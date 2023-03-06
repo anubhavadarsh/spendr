@@ -1,0 +1,17 @@
+.select {
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: var(--font-family-inter-regular);
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 12px;
+  min-width: 120px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.viewBills {
+  display: flex;
+  flex-wrap: wrap;
+}

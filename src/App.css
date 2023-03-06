@@ -1,0 +1,14 @@
+.section {
+  height: 100%;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+.section:first-of-type {
+  margin-top: 0;
+}
+
+a.active {
+  background-color: #323232;
+  color: white;
+}
